@@ -24,7 +24,7 @@ def main():
     arcpy.env.overwriteOutput = True
     arcpy.env.parallelProcessingFactor = 8
 
-    # parameter 1, the mxd document which contains all visible Sentinel-2 images
+    # parameter 1, the mxd document which contains all visible Sentinel-2 images 
     #     note that in our Sentinel-2 images, green band is band 2, and red band is band 4
     #     you can change the band number (in lines 61-67) according to your image
     mxd = arcpy.mapping.MapDocument(r"E:\Pan_GrIS_Sentinel_2\imagery.mxd")
