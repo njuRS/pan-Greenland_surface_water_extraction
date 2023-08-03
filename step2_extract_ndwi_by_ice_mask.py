@@ -22,7 +22,7 @@ outputPath = r"E:\Pan_GrIS_Sentinel_2\step2_masked_NDWI"
 
 env.workspace= inputPath
 
-# parameter 3, the Greenland Mapping Project (GIMP) Ice Mask
+# parameter 3, the Greenland Mapping Project (GIMP) Ice Mask 
 mask_shp = r"E:\Pan_GrIS_Sentinel_2_GIMP1_2\base_data\GIMP_GrIS_90m_2015_v1_2.shp"
 
 #if outputPath did not exsist, create the folder
