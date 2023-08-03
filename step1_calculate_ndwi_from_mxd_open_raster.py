@@ -27,7 +27,7 @@ def main():
     # parameter 1, the mxd document which contains all visible Sentinel-2 images
     #     note that in our Sentinel-2 images, green band is band 2, and red band is band 4
     #     you can change the band number (in lines 61-67) according to your image
-    mxd = arcpy.mapping.MapDocument(r"E:\Pan_GrIS_Sentinel_2_GIMP1_2\2018S1\imagery\added_imagery3.mxd")
+    mxd = arcpy.mapping.MapDocument(r"E:\Pan_GrIS_Sentinel_2\imagery.mxd")
     
     df = arcpy.mapping.ListDataFrames(mxd, "Layers")[0]
     lyrs = arcpy.mapping.ListLayers(mxd,"*.tif",df)
