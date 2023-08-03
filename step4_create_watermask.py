@@ -23,7 +23,7 @@ ppoFilePath = r'E:\Pan_GrIS_Sentinel_2\step3_Gabor_PPO'
 # parameter 4, the output path of this code
 outputPath = r'E:\Pan_GrIS_Sentinel_2\step4_watermask'
 
-# this path will be automatically created, if it doesn't exist
+# this path will be automatically created, if it doesn't exist 
 temp_path = r'E:\Pan_GrIS_Sentinel_2\step4_watermask\temp'
 
 env.overwriteOutput = True
